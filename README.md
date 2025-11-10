@@ -45,3 +45,4 @@ Instructions for Generating  OAuth Token:
 16.	Use the Consumer Key, Consumer Secret, Username, Password, and Security Token in the Apex to get Access Token
 17.	To use the schema saved above, you must utilize Document AI post/get methods in the Data Cloud Connect REST API which is in the following link. Reference to Document AI Rest API
 
+<img width="968" height="334" alt="image" src="https://github.com/user-attachments/assets/fd26d822-3d2e-4aef-a8d8-bcd9fbdd76ff" />
