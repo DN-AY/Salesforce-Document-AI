@@ -5,7 +5,7 @@ Prerequisites:
 -	Einstein Setup Enabled -> Turn on Einstein
 -	Data Cloud Architect Permission Set
 
-Document AI Schema Setup Instructions (Not mandatory as you can provide Schema in JSON Format in as parameter in Data Cloud's REST API):
+Document AI Schema Setup Instructions (Not mandatory as you can provide Schema in JSON Format in the parameter in Data Cloud's REST API):
 1.	Open Data Cloud app
 2.	Click Process Content | Document AI | New
 3.	Click Without a Source Object
