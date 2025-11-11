@@ -55,23 +55,23 @@ schemaJson = {
 	"title": "name_of_title",
 	"properties": 
 		"name_of_item": 
-			"type": "array",</br>
+			"type": "array",
 			"description": "Prompt to describe what the item is for",
 			"name_of_table": 
-				"type": "object",</br>
-				"description": "Prompt to describe what the table is for",</br>
+				"type": "object",
+				"description": "Prompt to describe what the table is for",
 				"properties": 
 					"field_name_1": 
-					"type": "number",</br>
-					"description": "Prompt used to help locate the data"</br>
-					},</br>
+					"type": "number",
+					"description": "Prompt used to help locate the data"
+					},
 					"field_name_2": 
-					"type": "string",</br>
-					"description": "Prompt used to help locate the data"</br>
-					},</br>
+					"type": "string",
+					"description": "Prompt used to help locate the data"
+					},
 					"field_name_3": 
-					"type": "boolean",</br>
-					"description": "Prompt used to help locate the data"</br>
+					"type": "boolean",
+					"description": "Prompt used to help locate the data"
 					},
 				}
 			}
