@@ -46,3 +46,34 @@ Instructions for Generating  OAuth Token:
 17.	To use the schema saved above, you must utilize Document AI post/get methods in the Data Cloud Connect REST API which is in the following link. Reference to Document AI Rest API
 
 <img width="968" height="334" alt="image" src="https://github.com/user-attachments/assets/fd26d822-3d2e-4aef-a8d8-bcd9fbdd76ff" />
+
+
+# Schema JSON structure
+schemaJson = {
+	"type": "object",
+	"title": "name_of_title",
+	"properties": {
+		"name_of_item": {
+			"type": "array",
+			"description": "Prompt to describe what the item is for",
+			"name_of_table": {
+				"type": "object",
+				"description": "Prompt to describe what the table is for",
+				"properties": {
+					"field_name_1": {
+					"type": "number",
+					"description": "Prompt used to help locate the data"
+					},
+					"field_name_2": {
+					"type": "string",
+					"description": "Prompt used to help locate the data"
+					},
+					"field_name_3": {
+					"type": "boolean",
+					"description": "Prompt used to help locate the data"
+					},
+				}
+			}
+		}
+	}
+};
