@@ -49,26 +49,26 @@ Instructions for Generating  OAuth Token:
 
 
 # Schema JSON structure
-schemaJson = { </br>
-	"type": "object",</br>
-	"title": "name_of_title",</br>
-	"properties": {</br>
-		"name_of_item": {</br>
+```schemaJson = {
+	"type": "object",
+	"title": "name_of_title",
+	"properties": 
+		"name_of_item": 
 			"type": "array",</br>
-			"description": "Prompt to describe what the item is for",</br>
-			"name_of_table": {</br>
+			"description": "Prompt to describe what the item is for",
+			"name_of_table": 
 				"type": "object",</br>
 				"description": "Prompt to describe what the table is for",</br>
-				"properties": {</br>
-					"field_name_1": {</br>
+				"properties": 
+					"field_name_1": 
 					"type": "number",</br>
 					"description": "Prompt used to help locate the data"</br>
 					},</br>
-					"field_name_2": {</br>
+					"field_name_2": 
 					"type": "string",</br>
 					"description": "Prompt used to help locate the data"</br>
 					},</br>
-					"field_name_3": {</br>
+					"field_name_3": 
 					"type": "boolean",</br>
 					"description": "Prompt used to help locate the data"</br>
 					},
@@ -77,3 +77,4 @@ schemaJson = { </br>
 		}
 	}
 };
+```
