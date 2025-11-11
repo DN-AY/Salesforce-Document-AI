@@ -49,7 +49,8 @@ Instructions for Generating  OAuth Token:
 
 
 # Schema JSON structure
-```schemaJson = {
+```
+schemaJson = {
 	"type": "object",
 	"title": "name_of_title",
 	"properties": 
