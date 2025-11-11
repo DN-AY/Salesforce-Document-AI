@@ -49,28 +49,28 @@ Instructions for Generating  OAuth Token:
 
 
 # Schema JSON structure
-schemaJson = {
-	"type": "object",
-	"title": "name_of_title",
-	"properties": {
-		"name_of_item": {
-			"type": "array",
-			"description": "Prompt to describe what the item is for",
-			"name_of_table": {
-				"type": "object",
-				"description": "Prompt to describe what the table is for",
-				"properties": {
-					"field_name_1": {
-					"type": "number",
-					"description": "Prompt used to help locate the data"
-					},
-					"field_name_2": {
-					"type": "string",
-					"description": "Prompt used to help locate the data"
-					},
-					"field_name_3": {
-					"type": "boolean",
-					"description": "Prompt used to help locate the data"
+schemaJson = { </br>
+	"type": "object",</br>
+	"title": "name_of_title",</br>
+	"properties": {</br>
+		"name_of_item": {</br>
+			"type": "array",</br>
+			"description": "Prompt to describe what the item is for",</br>
+			"name_of_table": {</br>
+				"type": "object",</br>
+				"description": "Prompt to describe what the table is for",</br>
+				"properties": {</br>
+					"field_name_1": {</br>
+					"type": "number",</br>
+					"description": "Prompt used to help locate the data"</br>
+					},</br>
+					"field_name_2": {</br>
+					"type": "string",</br>
+					"description": "Prompt used to help locate the data"</br>
+					},</br>
+					"field_name_3": {</br>
+					"type": "boolean",</br>
+					"description": "Prompt used to help locate the data"</br>
 					},
 				}
 			}
