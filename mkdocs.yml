@@ -1,0 +1,65 @@
+site_name: Salesforce Document AI
+site_author: DN-AY
+site_description: >-
+  Guide on Using Salesforce's Document AI
+
+repo_name: Salesforce-Document-AI
+repo_url: https://github.com/DN-AY/Salesforce-Document-AI
+
+theme:
+  name: material
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+  icon:
+    admonition:
+      note: material/alert
+
+extra:
+  alternative:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Korean
+      link: /kr/
+      lang: kr
+  
+# Page tree
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Setup: 
+    - Token Setup: token.md
+  - Data Cloud Connect API: data-cloud-api.md
+  - Example: example.md
+  - Limits: limits.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
